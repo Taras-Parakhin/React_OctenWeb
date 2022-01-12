@@ -1,5 +1,5 @@
 import './Comments.css';
-import {getComments} from "../services/serviceComments";
+import {getComments} from "../../services/serviceComments";
 import {useEffect, useState} from "react";
 
 function Comments(comment) {

@@ -8,11 +8,11 @@ function App() {
   return (
     <div className="App">
       <div className="wrap">
-        <div>{<Users/>}</div>
-        <div className='posts'>{<Posts/>}</div>
+        <div><Users/></div>
+        <div className='posts'><Posts/></div>
       </div>
 
-        <div className='comments'>{<Comments/>}</div>
+        <div className='comments'><Comments/></div>
     </div>
   );
 }

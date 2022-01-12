@@ -1,5 +1,5 @@
 import './Users.css';
-import {getUsers} from "../services/serviceUsers";
+import {getUsers} from "../../services/serviceUsers";
 import {useEffect, useState} from "react";
 
 function Users(user) {

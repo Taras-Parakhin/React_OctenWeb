@@ -1,5 +1,5 @@
 import './Posts.css';
-import {getPosts} from "../services/servicePosts";
+import {getPosts} from "../../services/servicePosts";
 import {useEffect, useState} from "react";
 
 function Posts(post) {
