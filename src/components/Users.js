@@ -8,10 +8,10 @@ import Posts from "./Posts";
 import './Users.css';
 
 const Users = () => {
-    let [users, setUsers] = useState([]),
-        [user, setUser] = useState(null),
-        [posts, setPosts] = useState([]);
-    let divPosts = document.getElementsByClassName('posts')[0];
+    const [users, setUsers] = useState([]),
+    const [user, setUser] = useState(null),
+    const [posts, setPosts] = useState([]);
+    
     useEffect(() => {
         userService.getAll()
             .then(value => setUsers(value))
