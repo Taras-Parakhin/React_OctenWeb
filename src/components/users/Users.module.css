@@ -1,0 +1,27 @@
+.users {
+    display: flex;
+    column-gap: 20px;
+}
+
+.users .btnUser {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    background-color: beige;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.users .btnAlbum {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    background-color: beige;
+    border-radius: 10px;
+    cursor: pointer;
+}

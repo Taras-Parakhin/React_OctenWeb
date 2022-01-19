@@ -1,0 +1,11 @@
+.posts button {
+    padding: 5px;
+    margin-top: 5px;
+    width: 670px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    background-color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+}
