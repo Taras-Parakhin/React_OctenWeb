@@ -1,0 +1,11 @@
+.posts {
+    display: flex;
+    column-gap: 50px;
+}
+
+.outlet {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

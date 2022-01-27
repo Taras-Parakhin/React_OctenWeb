@@ -1,0 +1,25 @@
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer {
+    height: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    line-height: 15px;
+}
+
+.outlet {
+    padding: 0 20px;
+    margin: 0 auto;
+    height: calc(100vh - 133px);
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: gainsboro;
+}

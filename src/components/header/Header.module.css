@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.header a {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+.header a[class='active'] {
+    color: red;
+}
